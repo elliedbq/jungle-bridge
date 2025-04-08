@@ -1,0 +1,25 @@
+,mass (g),stretched length (cm),,,,Coord Label,X coords (cm),Y coords (cm),,Weight Label,Weight (g),,Rubber Band Label,k ,l0
+Rubber Band # 1,30,9.3,,,,start,0,3,,red weight,51,,Long slender beige,42.24276508,0.083058712
+Long slender beige,75,9.8,,,,red weight,6.5,12.5,,pink weight,26,,Skinny long yellow,121.0086957,0.078508803
+,117,10.8,,,,pink weight,13.5,17,,yellow weight,53,,Green tiny semi thick,240.128655,0.02077852
+,152,12,,,,yellow weight,16.4,17.75,,blue weight,27,,Smallish black semithin,39.45177866,0.025774178
+Rubber Band # 2,35,8.1,,,,blue weight,20,16,,white weight,52,,Blue thick band,137.8304094,0.073010811
+Skinny long yellow,77,8.5,,,,white weight,25.5,10,,,,,Skinny long red,107.8447489,0.078753527
+,106,8.8,,,,end,29.5,2.5,,,,,,,
+,152,9,,,,,,,,,,,,,
+Rubber Band # 3,43,2.25,,,,,,,,,,,,,
+Green tiny semi thick,76,2.4,,,,,,,,,,,,,
+,106,2.5,,,,,,,,,,,,,
+,152,2.7,,,,,,,,,,,,,
+Rubber Band # 4,30,3.5,,,,,,,,,,,,,
+Smallish black semithin,75,4.2,,,,,,,,,,,,,
+,117,5.5,,,,,,,,,,,,,
+,152,6.4,,,,,,,,,,,,,
+Rubber Band # 5,28,7.5,,,,,,,,,,,,,
+Blue thick band,65,7.8,,,,,,,,,,,,,
+,106,8,,,,,,,,,,,,,
+,152,8.4,,,,,,,,,,,,,
+Rubber Band # 6,40,8.2,,,,,,,,,,,,,
+Skinny long red,76,8.6,,,,,,,,,,,,,
+,106,8.9,,,,,,,,,,,,,
+,152,9.2,,,,,,,,,,,,,
