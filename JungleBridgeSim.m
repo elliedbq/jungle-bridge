@@ -161,15 +161,23 @@ function [x_list, y_list] = generate_shape_prediction(param_struct)
         coords_guess(2*n,1) = y_guess(n+1);
     end
 
-    coords_guess
-
-    coords_sol = run_gradient_descent(f_cost, coords_guess, opt_params);
+    %coords_sol = run_gradient_descent(f_cost, coords_guess, opt_params);
     % coords_guess is a multi dimensional vector. so we can run gradient 
     % descent all at once.
+
+    [Vopt, V_history] = run_gradient_descent(f_cost, coords_guess, opt_params);
+    coords_sol = Vopt;
 
     V_list = [param_struct.r0;coords_sol;param_struct.rn];
     x_list = V_list(1:2:(end-1));
     y_list = V_list(2:2:end);
+
+    figure()
+    hold on;
+    plot(V_history(1, :), V_history(2, :), 'r-o', 'DisplayName', 'Gradient Descent Path');
+    legend;
+    title('Figure 5: Gradient Descent Progression');
+    xlabel('x (cm)'); ylabel('y (cm)');
 end
 
 
