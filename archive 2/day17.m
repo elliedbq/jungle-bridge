@@ -134,8 +134,3 @@ function [k, l0, m, b] = find_k_l0(A, Y)
     l0 = -b/m;
 end
 
-<<<<<<< Updated upstream:day17.m
-=======
-
-
->>>>>>> Stashed changes:archive 2/day17.m
